@@ -1,0 +1,1012 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <Body>
+    <ReportItems>
+      <Textbox Name="textbox1">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Transaction Series</Value>
+                <Style>
+                  <FontFamily>Gill Sans MT</FontFamily>
+                  <FontSize>16pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>textbox1</rd:DefaultName>
+        <Top>0.34396cm</Top>
+        <Left>0.3175cm</Left>
+        <Height>0.34264in</Height>
+        <Width>2.05208in</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Tablix Name="table1">
+        <TablixBody>
+          <TablixColumns>
+            <TablixColumn>
+              <Width>1.68304in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1.68304in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1.68304in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1.68304in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1.68304in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1.68304in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1.68304in</Width>
+            </TablixColumn>
+          </TablixColumns>
+          <TablixRows>
+            <TablixRow>
+              <Height>0.35917in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="textbox2">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Transaction Type</Value>
+                              <Style>
+                                <FontFamily>Gill Sans MT</FontFamily>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>textbox2</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#056e2d</BackgroundColor>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="textbox3">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Transaction Type Code</Value>
+                              <Style>
+                                <FontFamily>Gill Sans MT</FontFamily>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>textbox3</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#056e2d</BackgroundColor>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="textbox4">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Transaction Name</Value>
+                              <Style>
+                                <FontFamily>Gill Sans MT</FontFamily>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>textbox4</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#056e2d</BackgroundColor>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="textbox5">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Minimum Transaction</Value>
+                              <Style>
+                                <FontFamily>Gill Sans MT</FontFamily>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>textbox5</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#056e2d</BackgroundColor>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="textbox6">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Maximum Transaction</Value>
+                              <Style>
+                                <FontFamily>Gill Sans MT</FontFamily>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>textbox6</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#056e2d</BackgroundColor>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="textbox7">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Minimum Transaction Text</Value>
+                              <Style>
+                                <FontFamily>Gill Sans MT</FontFamily>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>textbox7</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#056e2d</BackgroundColor>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="textbox8">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Maximum Transaction Text</Value>
+                              <Style>
+                                <FontFamily>Gill Sans MT</FontFamily>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>textbox8</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#056e2d</BackgroundColor>
+                        <VerticalAlign>Middle</VerticalAlign>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.2725in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="ID">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!ID.Value</Value>
+                              <Style>
+                                <FontFamily>Gill Sans MT</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>ID</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="ar_transaction_type_code">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!ar_transaction_type_code.Value</Value>
+                              <Style>
+                                <FontFamily>Gill Sans MT</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>ar_transaction_type_code</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="ar_name_l">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!ar_name_l.Value</Value>
+                              <Style>
+                                <FontFamily>Gill Sans MT</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>ar_name_l</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="ar_min_tran_nr">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!ar_min_tran_nr.Value</Value>
+                              <Style>
+                                <FontFamily>Gill Sans MT</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Right</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>ar_min_tran_nr</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="ar_max_tran_nr">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!ar_max_tran_nr.Value</Value>
+                              <Style>
+                                <FontFamily>Gill Sans MT</FontFamily>
+                              </Style>
+                            </TextRun>
+                            <TextRun>
+                              <Value xml:space="preserve">  </Value>
+                              <Style>
+                                <FontFamily>Gill Sans MT</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Right</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>ar_max_tran_nr</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="min_ar_transaction_text">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!min_ar_transaction_text.Value</Value>
+                              <Style>
+                                <FontFamily>Gill Sans MT</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>min_ar_transaction_text</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="max_ar_transaction_text">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!max_ar_transaction_text.Value</Value>
+                              <Style>
+                                <FontFamily>Gill Sans MT</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>max_ar_transaction_text</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+          </TablixRows>
+        </TablixBody>
+        <TablixColumnHierarchy>
+          <TablixMembers>
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+          </TablixMembers>
+        </TablixColumnHierarchy>
+        <TablixRowHierarchy>
+          <TablixMembers>
+            <TablixMember>
+              <KeepWithGroup>After</KeepWithGroup>
+              <RepeatOnNewPage>true</RepeatOnNewPage>
+              <KeepTogether>true</KeepTogether>
+            </TablixMember>
+            <TablixMember>
+              <Group Name="table1_Details_Group">
+                <DataElementName>Detail</DataElementName>
+              </Group>
+              <TablixMembers>
+                <TablixMember />
+              </TablixMembers>
+              <DataElementName>Detail_Collection</DataElementName>
+              <DataElementOutput>Output</DataElementOutput>
+              <KeepTogether>true</KeepTogether>
+            </TablixMember>
+          </TablixMembers>
+        </TablixRowHierarchy>
+        <DataSetName>DataSet1</DataSetName>
+        <Top>0.55444in</Top>
+        <Left>0cm</Left>
+        <Height>0.63167in</Height>
+        <Width>11.78128in</Width>
+        <ZIndex>1</ZIndex>
+        <Style />
+      </Tablix>
+    </ReportItems>
+    <Height>1.18611in</Height>
+    <Style />
+  </Body>
+  <Width>11.78128in</Width>
+  <Page>
+    <PageFooter>
+      <Height>0.72917in</Height>
+      <PrintOnFirstPage>true</PrintOnFirstPage>
+      <PrintOnLastPage>true</PrintOnLastPage>
+      <ReportItems>
+        <Textbox Name="Textbox9">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>="Asian Hospital and Medical Center " &amp; Year(Today)</Value>
+                  <Style>
+                    <FontFamily>Gill Sans MT</FontFamily>
+                    <FontSize>8pt</FontSize>
+                    <Color>DimGray</Color>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox9</rd:DefaultName>
+          <Top>0.06944in</Top>
+          <Left>0.125in</Left>
+          <Height>0.25in</Height>
+          <Width>3.375in</Width>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="Textbox10">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>="Date &amp; Time of Execution: " &amp; Globals!ExecutionTime</Value>
+                  <Style>
+                    <FontFamily>Gill Sans MT</FontFamily>
+                    <FontSize>8pt</FontSize>
+                    <Color>DimGray</Color>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox10</rd:DefaultName>
+          <Top>0.31944in</Top>
+          <Left>0.125in</Left>
+          <Height>0.25in</Height>
+          <Width>3.375in</Width>
+          <ZIndex>1</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+      </ReportItems>
+      <Style>
+        <Border>
+          <Style>None</Style>
+        </Border>
+      </Style>
+    </PageFooter>
+    <LeftMargin>1in</LeftMargin>
+    <RightMargin>1in</RightMargin>
+    <TopMargin>1in</TopMargin>
+    <BottomMargin>1in</BottomMargin>
+    <Style />
+  </Page>
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource1">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString>Data Source=DBPROD03;Initial Catalog=AmalgaPROD</ConnectString>
+        <IntegratedSecurity>true</IntegratedSecurity>
+      </ConnectionProperties>
+      <rd:SecurityType>Integrated</rd:SecurityType>
+      <rd:DataSourceID>27f6ed5c-2f52-40e8-8df9-a6321de28572</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DataSet1">
+      <Query>
+        <DataSourceName>DataSource1</DataSourceName>
+        <QueryParameters>
+          <QueryParameter Name="@FromYear">
+            <Value>=Parameters!FromYear.Value</Value>
+          </QueryParameter>
+        </QueryParameters>
+        <CommandText>--TRANSACTION SERIES
+-- change aliases 
+
+DECLARE @year VARCHAR(100)
+
+SET @year = @FromYear --2003 --today
+--SET @date1 = '2011-01-01 00:00:00.000'
+--SET @date2 = '2011-12-31 23:59:59.998'
+
+--INVOICE
+--select top 100 * from ar_invoice
+SELECT 
+	DISTINCT 'AR Invoice', b.user_transaction_type_code as ar_transaction_type_code, b.name_l as ar_name_l, min(transaction_nr) as ar_min_tran_nr, max(transaction_nr) as ar_max_tran_nr, MIN(transaction_text) as min_ar_transaction_text, MAX(transaction_text) as max_ar_transaction_text
+FROM
+	ar_invoice a, user_transaction_type b
+WHERE
+	a.user_transaction_type_id = b.user_transaction_type_id AND
+	transaction_text like '%'+'-'+ @year +'-' + '%'
+	--and transaction_text in (@YEARS)
+GROUP BY
+	b.user_transaction_type_code, b.name_l
+
+	
+UNION ALL
+--select top 100 * from remittance
+--REMITTANCE
+SELECT 
+	DISTINCT 'Remittance', d.user_transaction_type_code as r_transaction_type_code, d.name_l as r_name_l, min(transaction_nr) as r_min_tran_nr, max(transaction_nr) as r_max_tran_nr, MIN(transaction_text) as min_r_transaction_text, MAX(transaction_text) as max_r_transaction_text
+FROM
+	remittance c, user_transaction_type d
+WHERE
+	c.user_transaction_type_id = d.user_transaction_type_id AND
+	transaction_text like '%'+'-'+ @year +'-' + '%'
+	--and transaction_text in (@YEARS)
+GROUP BY
+	d.user_transaction_type_code, d.name_l
+
+UNION ALL
+	--select top 100 * from swe_ap_transaction
+--AP-INVOICE
+SELECT 
+	DISTINCT 'SWE AP Transaction', f.user_transaction_type_code as ap_transaction_type_code, f.name_l as ap_name_l, min(transaction_nr) as ap_min_tran_nr, max(transaction_nr) as ap_max_tran_nr, MIN(transaction_text) as min_ap_transaction_text, MAX(transaction_text) as max_ap_transaction_text
+fROM 
+	swe_ap_transaction e, user_Transaction_type f
+WHERE 
+	e.user_transaction_type_id = f.user_transaction_type_id AND
+	transaction_text like '%'+'-'+ @year +'-' + '%'
+	--and transaction_text in (@YEARS)
+GROUP BY
+	f.user_transaction_type_code, f.name_l
+	 
+UNION ALL
+	--select top 100 * from ap_payment
+--AP-PAYMENT
+SELECT
+	DISTINCT 'AP Payment', h.user_transaction_type_code as pay_transaction_type_code, h.name_l as pay_name_l, min(transaction_nr) as pay_min_tran_nr, max(transaction_nr) as pay_max_tran_nr, MIN(transaction_text), MAX(transaction_text) as max_pay_transaction_text
+FROM
+	ap_payment g, user_Transaction_type h
+WHERE
+	g.user_transaction_type_id = h.user_transaction_type_id AND
+	transaction_text like '%'+'-'+ @year +'-' + '%'
+	--and transaction_text in (@YEARS)
+GROUP BY
+	h.user_transaction_type_code, h.name_l
+
+UNION ALL
+	--select top 100 * from bank_deposit
+--BANK DEPOSIT
+SELECT
+	DISTINCT 'Bank Deposit', j.user_transaction_type_code as bd_transaction_type_code, j.name_l as bd_name_l, min(transaction_nr) as spd_min_tran_nr, max(transaction_nr) as spd_max_tran_nr, MIN(transaction_text) as min_spd_transaction_text, MAX(transaction_text) as max_spd_transaction_text
+FROM
+	bank_deposit i, user_transaction_type j
+WHERE
+	i.user_transaction_type_id = j.user_transaction_type_id AND
+	transaction_text like '%'+'-'+ @year +'-' + '%'
+	--and transaction_text in (@YEARS)
+GROUP BY
+	j.user_transaction_type_code, j.name_l
+
+UNION ALL
+	--select top 100 * from swe_purchase_order
+--PURCHASE ORDER
+SELECT 
+	DISTINCT 'SWE Purchase Order', l.user_transaction_type_code as spo_transaction_type_code, l.name_l as spo_name_l, min(transaction_nr) as spd_min_tran_nr, max(transaction_nr) as spd_max_tran_nr, MIN(transaction_text) as min_spd_transaction_text, MAX(transaction_text) as max_spd_transaction_text
+FROM 
+	SWE_purchase_order k, user_transaction_type l
+WHERE
+	k.user_transaction_type_id = l.user_transaction_type_id AND	
+	transaction_text like '%'+'-'+ @year +'-' + '%'
+	--and transaction_text in (@YEARS)
+GROUP BY
+	l.user_transaction_type_code, l.name_l
+
+UNION ALL
+	--select top 100 * from swe_purchase_distribute
+--PURCHASE DISTRIBUTE
+SELECT 
+	DISTINCT 'SWE Purchase Distribute', n.user_transaction_type_code as spd_transaction_type_code, n.name_l as spd_name_l, min(transaction_nr) as spd_min_tran_nr, max(transaction_nr) as spd_max_tran_nr, MIN(transaction_text) as min_spd_transaction_text, MAX(transaction_text) as max_spd_transaction_text
+FROM
+	swe_purchase_distribute m, user_transaction_type n
+WHERE
+	m.user_transaction_type_id = n.user_transaction_type_id AND
+	transaction_text like '%'+'-'+ @year +'-' + '%'
+	--and transaction_text in (@YEARS)
+GROUP BY
+	n.user_transaction_type_code, n.name_l
+
+UNION ALL
+	--select top 100 * from swe_purchase_receive
+--PURCHASE_RECEIVE
+SELECT 
+	DISTINCT 'SWE Purchase Receive', p.user_transaction_type_code as spr_transaction_type_code, p.name_l spr_name_l, min(transaction_nr) as spr_min_tran_nr, max(transaction_nr) as spr_max_tran_nr, MIN(transaction_text) as min_spr_transaction_text, MAX(transaction_text) as max_spr_transaction_text
+FROM 
+	SWE_purchase_receive o, user_Transaction_type p
+WHERE
+	o.user_transaction_type_id = p.user_transaction_type_id AND
+	transaction_text like '%'+'-'+ @year +'-' + '%'
+	--and transaction_text in (@YEARS)
+GROUP BY
+	p.user_transaction_type_code, p.name_l
+
+UNION ALL
+--select top 100 * from swe_purchase request
+--PURCHASE REQUEST
+SELECT 
+	DISTINCT 'SWE Purchase Request', r.user_transaction_type_code as swp_transaction_type_code, r.name_l as swp_name_l, min(transaction_nr) as swp_min_tran_nr, max(transaction_nr) as swp_max_tran_nr, MIN(transaction_text) as min_swp_transaction_text, MAX(transaction_text) as max_swp_transaction_text
+FROM 
+	SWE_purchase_request q, user_transaction_type r, swe_purchase_request_detail s
+WHERE
+	q.user_transaction_type_id = r.user_transaction_type_id AND
+	q.purchase_request_id = s.purchase_request_id AND
+	transaction_text like '%'+'-'+ @year +'-' + '%'
+	--and transaction_text in (@YEARS)
+	--a.lu_updated between '2006-01-01 00:00:00.000' and '2006-12-31 23:59:59.998'
+GROUP BY
+	r.user_transaction_type_code, r.name_l
+
+UNION ALL
+	--select top 100 * from swe_purchase_return
+--PURCHASE RETURN
+SELECT 
+	DISTINCT 'Purchase Return', u.user_transaction_type_code as pr_transaction_type_code, u.name_l as pr_name_l, min(transaction_nr) as pr_min_tran_nr, max(transaction_nr) as pr_max_tran_nr, MIN(transaction_text) as min_pr_transaction_text, MAX(transaction_text) as max_pr_transaction_text
+FROM
+	swe_purchase_return t, user_transaction_type u
+WHERE 
+	t.user_transaction_type_id = u.user_transaction_type_id AND
+	transaction_text like '%'+'-'+ @year +'-' + '%'
+	--and transaction_text in (@YEARS)
+GROUP BY
+	u.user_transaction_type_code, u.name_l
+
+UNION ALL
+		--select top 100 * from asset_addition
+--ASSET ADDITION
+SELECT 
+	DISTINCT 'Asset Addition', w.user_transaction_type_code as aa_transaction_type_code, w.name_l as aa_name_l, min(transaction_nr) as aa_min_tran_nr, max(transaction_nr) as aa_max_tran_nr, MIN(transaction_text) as min_aa_transaction_text, MAX(transaction_text) as max_aa_transaction_text
+FROM
+	asset_addition v, user_transaction_type w
+WHERE 
+	v.user_transaction_type_id = w.user_transaction_type_id AND
+	transaction_text like '%'+'-'+ @year +'-' + '%'
+	--and transaction_text in (@YEARS)
+GROUP BY
+	w.user_transaction_type_code, w.name_l
+
+UNION ALL
+	--select top 100 * from asset_depreciation_run
+--ASSET DEPRECIATION RUN
+SELECT 
+	DISTINCT 'Asset Depreciation Run', y.user_transaction_type_code as adr_transaction_type_code, y.name_l as adr_name_l, min(transaction_nr) as adr_min_tran_nr, max(transaction_nr) as adr_max_tran_nr, MIN(transaction_text) as min_adr_transaction_text , MAX(transaction_text) as max_adr_transaction_text
+FROM
+	asset_depreciation_run x, user_transaction_type y
+WHERE 
+	x.user_transaction_type_id = y.user_transaction_type_id AND
+	transaction_text like '%'+'-'+ @year +'-' + '%'
+	--and transaction_text in (@YEARS)
+GROUP BY
+	y.user_transaction_type_code, y.name_l
+
+UNION ALL
+	--select top 100 * from asset_retirement
+--ASSET RETIREMENT
+SELECT 
+	DISTINCT 'Asset Retirement',aa.user_transaction_type_code as asr_transaction_type_code, aa.name_l as asr_name_l, min(transaction_nr) as asr_min_tran_nr, max(transaction_nr) as asr_max_tran_nr, MIN(transaction_text) as min_asr_transaction_text, MAX(transaction_text) as max_asr_transaction_text
+FROM
+	asset_retirement z, user_transaction_type aa
+WHERE 
+	z.user_transaction_type_id = aa.user_transaction_type_id AND
+	transaction_text like '%'+'-'+ @year +'-' + '%'
+	--and transaction_text in (@YEARS)
+GROUP BY
+	aa.user_transaction_type_code, aa.name_l
+
+UNION ALL
+	--select top 100 * from asset_transfer
+--ASSET TRANSFER
+SELECT 
+	DISTINCT 'Asset Transfer', cc.user_transaction_type_code as at_transaction_type_code, cc.name_l as at_name_l, min(transaction_nr) as at_min_tran_nr, max(transaction_nr) as at_max_tran_nr, MIN(transaction_text) as min_at_transaction_text, MAX(transaction_text) as max_at_transaction_text
+FROM
+	asset_transfer bb, user_transaction_type cc
+WHERE 
+	bb.user_transaction_type_id = cc.user_transaction_type_id AND
+	transaction_text like '%'+'-'+ @year +'-' + '%'
+	--and transaction_text in (@YEARS)
+GROUP BY
+	cc.user_transaction_type_code, cc.name_l
+
+UNION ALL
+	--select top 100 * from gl_transaction
+--GL TRANSACTION	
+SELECT 
+	DISTINCT 'GL Transaction', ee.user_transaction_type_code as glt_transaction_type_code, ee.name_l as glt_name_l, min(transaction_nr) as glt_min_tran_nr, max(transaction_nr) as glt_max_tran_nr, MIN(transaction_text) as min_glt_transaction_text , MAX(transaction_text) as max_glt_transaction_text
+FROM
+	gl_transaction dd, user_transaction_type ee
+WHERE 
+	dd.user_transaction_type_id = ee.user_transaction_type_id AND
+	transaction_text like '%'+'-'+ @year +'-' + '%'
+	--and transaction_text in (@YEARS)
+GROUP BY
+	ee.user_transaction_type_code, ee.name_l</CommandText>
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+      </Query>
+      <Fields>
+        <Field Name="ID">
+          <DataField />
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ar_transaction_type_code">
+          <DataField>ar_transaction_type_code</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ar_name_l">
+          <DataField>ar_name_l</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ar_min_tran_nr">
+          <DataField>ar_min_tran_nr</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="ar_max_tran_nr">
+          <DataField>ar_max_tran_nr</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="min_ar_transaction_text">
+          <DataField>min_ar_transaction_text</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="max_ar_transaction_text">
+          <DataField>max_ar_transaction_text</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
+    <DataSet Name="YearFilter">
+      <Query>
+        <DataSourceName>DataSource1</DataSourceName>
+        <CommandText>; with  TestYear as
+        (
+        select  convert(varchar(4),datepart(year, '2003-01-01')) as yr
+        union all
+        select  convert(varchar(4),yr + 1)
+        from    TestYear
+        where   yr &lt; datepart(year, GETDATE())
+        )
+select  yr
+from    TestYear
+order by yr desc</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="yr">
+          <DataField>yr</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
+  <ReportParameters>
+    <ReportParameter Name="FromYear">
+      <DataType>String</DataType>
+      <Prompt>Year</Prompt>
+      <ValidValues>
+        <DataSetReference>
+          <DataSetName>YearFilter</DataSetName>
+          <ValueField>yr</ValueField>
+          <LabelField>yr</LabelField>
+        </DataSetReference>
+      </ValidValues>
+    </ReportParameter>
+  </ReportParameters>
+  <Language>en-US</Language>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>850f529c-6edb-414b-b31f-238f24863a7e</rd:ReportID>
+</Report>
